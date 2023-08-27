@@ -1,0 +1,51 @@
+.card-one img,
+.card-two img {
+  border-radius: 12px;
+  object-fit: cover;
+}
+.contact-info{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* card one */
+.card-one{
+  max-width: 80%;
+  display: flex;
+  gap: 30px;
+  background-color: #ffffff;
+  padding: 22.5px;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+.card-one img{
+  max-width: 255px;
+  max-height: 250px;
+}
+.card-one .general-info{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card-one .general-content{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+/* card two */
+.card-two{
+  max-width: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  background-color: #ffffff;
+  padding: 22.5px;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+.card-two .general-content{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
