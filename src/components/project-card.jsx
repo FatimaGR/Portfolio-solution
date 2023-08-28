@@ -16,11 +16,11 @@ function ProjectOne(){
     <>
       {projects.map((project) => 
         <div key={project.id} className="project-card-one">
-          <img src={ project.image } alt="recipe blog" />
+          <img src={ project.image } alt={project.title} />
           <div className="project-info">
             <div className="description">
               <div className="tags">
-                { project.tags.map((tag) => <p className="paragraph-3">#{tag}</p>) }
+                { project.tags.map((tag) => <p key={tag} className="paragraph-3">#{tag}</p>) }
               </div>
               <h2 className="title-2">{project.title}</h2>
               <p className="paragraph-2">{project.description}</p>
@@ -41,9 +41,9 @@ function ProjectTwo(){
     <>
       {projects.map((project) => 
         <div key={project.id} className="project-card-two">
-          <img src={ project.image } alt="recipe blog" />
+          <img src={ project.image } alt={project.title} />
             <div className="tags">
-              { project.tags.map((tag) => <p className="paragraph-3">#{tag}</p>) }
+              { project.tags.map((tag) => <p key={tag} className="paragraph-3">#{tag}</p>) }
             </div>
             <h2 className="title-2">{project.title}</h2>
             <p className="paragraph-2">{project.description}</p>

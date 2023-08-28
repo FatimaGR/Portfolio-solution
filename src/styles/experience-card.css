@@ -22,7 +22,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 10px;
 }
 .experience-container-one .experience-card{
   width: 270px;
