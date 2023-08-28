@@ -1,0 +1,44 @@
+.item-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.knoledge-card-one ul,
+.knoledge-card-two ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+/* knoledge card one styles */
+.knoledge-card-one{
+  max-width: 80%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 22px;
+}
+.knoledge-card-one .item-container{
+  width: 47%;
+}
+.container-level{
+  height: 9px;
+  width: 70%;
+  background-color: #C4C4C4;
+  border-radius: 12px;
+}
+.item-level{
+  height: 100%;
+  background-color: #535bf2;
+  border-radius: 12px;
+}
+/* knoledge card two styles */
+.knoledge-card-two{
+  max-width: 389px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 22px;
+}
+.knoledge-card-two .item-container{
+  width: 100%;
+}

@@ -115,3 +115,7 @@ button{
   color: var(--violet-1);
   border: 1px solid var(--violet-1);
 }
+/* others styles */
+.capitalized{
+  text-transform: capitalize;
+}

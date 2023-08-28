@@ -3,32 +3,32 @@ import '../styles/presentation-card.css'
 
 function PresentationOne() {
   return(
-    <div class="presentation-card-one">
+    <div className="presentation-card-one">
       <img src={ profile } alt="profile" />
       <div>
-        <div class="general-info">
-          <div class="general-content">
-            <h2 class="title-1">Billy Pearson</h2>
-            <p class="paragraph-1">Front-end developer</p>
+        <div className="general-info">
+          <div className="general-content">
+            <h2 className="title-1">Billy Pearson</h2>
+            <p className="paragraph-1">Front-end developer</p>
           </div>
-          <div class="general-content">
-            <div class="contact-info">
-              <span class="material-symbols-outlined">
+          <div className="general-content">
+            <div className="contact-info">
+              <span className="material-symbols-outlined">
                 mail
               </span>
-              <p class="paragraph-4">billy@example.com</p>
+              <p className="paragraph-4">billy@example.com</p>
             </div>
-            <div class="contact-info">
-              <span class="material-symbols-outlined">
+            <div className="contact-info">
+              <span className="material-symbols-outlined">
                 call
               </span>
-              <p class="paragraph-4">(+603) 546 624 342</p>
+              <p className="paragraph-4">(+603) 546 624 342</p>
             </div>
           </div>
         </div>
-        <p class="paragraph-1">Self-motivated developer, who is willing to learn and create outstanding UI applications.</p> 
+        <p className="paragraph-1">Self-motivated developer, who is willing to learn and create outstanding UI applications.</p> 
         <br />
-        <p class="paragraph-1">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. </p>
+        <p className="paragraph-1">Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie. </p>
       </div>
     </div>
   )
@@ -36,27 +36,27 @@ function PresentationOne() {
 
 function PresentationTwo() {
   return(
-    <div class="presentation-card-two">
+    <div className="presentation-card-two">
       <img src={profile} alt="" />
-          <div class="general-content">
-            <h2 class="title-1">Billy Pearson</h2>
-            <p class="paragraph-1">Front-end developer</p>
+          <div className="general-content">
+            <h2 className="title-1">Billy Pearson</h2>
+            <p className="paragraph-1">Front-end developer</p>
           </div>
-          <div class="general-content">
-            <div class="contact-info">
-              <span class="material-symbols-outlined">
+          <div className="general-content">
+            <div className="contact-info">
+              <span className="material-symbols-outlined">
                 mail
               </span>
-              <p class="paragraph-4">billy@example.com</p>
+              <p className="paragraph-4">billy@example.com</p>
             </div>
-            <div class="contact-info">
-              <span class="material-symbols-outlined">
+            <div className="contact-info">
+              <span className="material-symbols-outlined">
                 call
               </span>
-              <p class="paragraph-4">(+603) 546 624 342</p>
+              <p className="paragraph-4">(+603) 546 624 342</p>
             </div>
           </div>
-        <p class="paragraph-1">Self-motivated developer, who is willing to learn and create outstanding UI applications.</p> 
+        <p className="paragraph-1">Self-motivated developer, who is willing to learn and create outstanding UI applications.</p> 
     </div>
   )
 }
