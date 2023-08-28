@@ -1,0 +1,41 @@
+.tags, .buttons{
+  display: flex;
+  gap: 10px;
+}
+/* blog one styles */
+.blog-card-one{
+  max-width: 75%;
+  display: flex;
+  gap: 30px;
+  background-color: #ffffff;
+  padding: 22px;
+  border-radius: 12px;
+}
+.blog-card-one img{
+  max-width: 384px;
+  max-height: 267px;
+  border-radius: 12px;
+}
+.blog-card-one .blog-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blog-card-one .description{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/* blog two styles */
+.blog-card-two{
+  max-width: 395px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #ffffff;
+  padding: 22px;
+  border-radius: 12px;
+}
+.blog-card-two img{
+  border-radius: 12px;
+}

@@ -3,8 +3,8 @@ import '../styles/presentation-card.css'
 
 function PresentationOne() {
   return(
-    <div class="card-one">
-      <img src={profile} alt="" />
+    <div class="presentation-card-one">
+      <img src={ profile } alt="profile" />
       <div>
         <div class="general-info">
           <div class="general-content">
@@ -36,7 +36,7 @@ function PresentationOne() {
 
 function PresentationTwo() {
   return(
-    <div class="card-two">
+    <div class="presentation-card-two">
       <img src={profile} alt="" />
           <div class="general-content">
             <h2 class="title-1">Billy Pearson</h2>

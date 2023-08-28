@@ -1,5 +1,5 @@
-.card-one img,
-.card-two img {
+.presentation-card-one img,
+.presentation-card-two img {
   border-radius: 12px;
   object-fit: cover;
 }
@@ -9,8 +9,8 @@
   gap: 10px;
 }
 /* card one */
-.card-one{
-  max-width: 80%;
+.presentation-card-one{
+  max-width: 85%;
   display: flex;
   gap: 30px;
   background-color: #ffffff;
@@ -18,23 +18,23 @@
   border-radius: 12px;
   box-sizing: border-box;
 }
-.card-one img{
-  max-width: 255px;
-  max-height: 250px;
+.presentation-card-one img{
+  max-width: 271px;
+  max-height: 266px;
 }
-.card-one .general-info{
+.presentation-card-one .general-info{
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
-.card-one .general-content{
+.presentation-card-one .general-content{
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-bottom: 30px;
 }
 /* card two */
-.card-two{
+.presentation-card-two{
   max-width: 390px;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@
   border-radius: 12px;
   box-sizing: border-box;
 }
-.card-two .general-content{
+.presentation-card-two .general-content{
   display: flex;
   flex-direction: column;
   gap: 8px;
