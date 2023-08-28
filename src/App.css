@@ -84,6 +84,11 @@ h2{
   color: var(--gray-1);
   font-weight: 600;
 }
+.sub-title-4{
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-3);
+}
 /* buttons styles */
 button{
   font-size: 18px;
