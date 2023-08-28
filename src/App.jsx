@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Presentation from './components/presentation-card.jsx'
 import Projects from './components/project-card.jsx'
 import Knowledge from './components/knowledge-card.jsx'
+import Blog from './components/blog-card.jsx'
 import './App.css'
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
       <Projects/>
       <br />
       <Knowledge/>
+      <br />
+      <Blog/>
     </>
   )
 }

@@ -8,6 +8,16 @@
   --violet-2: #535bf2;
   --white: #ffffff;
 }
+/* link styles */
+a{
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--violet-1);
+  text-decoration: none;
+}
+a:hover{
+  color: var(--violet-2);
+}
 /* paragraphs styles */
 p{
   font-weight: 500;

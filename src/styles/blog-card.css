@@ -1,0 +1,26 @@
+.blog-card-one{
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  gap: 30px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 12px;
+  padding: 22px;
+  padding-right: 0;
+}
+.blog-card-one img{
+  width: 800px;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.blog-information{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.blog-title{
+  max-width: 178px;
+}
