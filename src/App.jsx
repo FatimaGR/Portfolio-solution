@@ -5,6 +5,7 @@ import Knowledge from './components/knowledge-card.jsx'
 import Blog from './components/blog-card.jsx'
 import Experience from './components/experience-card.jsx'
 import Certificate from './components/certificate-card.jsx'
+import Counter from './components/counter.jsx'
 import './App.css'
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
       <Experience/>
       <br />
       <Certificate/>
+      <br />
+      <Counter/>
     </>
   )
 }
