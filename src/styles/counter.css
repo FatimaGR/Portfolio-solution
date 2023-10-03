@@ -4,3 +4,26 @@
   padding: 22px;
   border-radius: 12px;
 }
+.filters{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.radio-btn{
+  display: none;
+}
+.label-radio-btn{
+  border: 1px solid #4F4F4F;
+  border-radius: 12px;
+  padding: 8px 22px;
+  cursor: pointer;
+}
+.label-radio-btn:hover{
+  border: 1px solid #646cff;
+  color: #646cff;
+}
+.label-radio-btn:checked{
+  background-color: #535bf2;
+  color: #fff;
+  border: 1px solid #fff;
+}

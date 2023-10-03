@@ -34,7 +34,7 @@ function ProjectCounterFilter(){
   return (
     <div className='project-counter'>
       <h2 className='title-4'>Project ({projects.length}) </h2>
-      <div>
+      <div className='filters'>
         { filters.map((filter) => {
           let projectsFilter = projects.filter(project => project.tags.includes(filter) == true)
           function handleFilter() {
@@ -42,8 +42,14 @@ function ProjectCounterFilter(){
           }
           return(
             <div key={filter}>
-              <label htmlFor="filter"> {filter}
-                <input type="radio" id={filter} name="filter" onChange={handleFilter}/>
+              <label className="sub-title-1 label-radio-btn" htmlFor="filter"> {filter}
+                <input 
+                className="radio-btn" 
+                type="radio" 
+                id={filter} 
+                name="filter" 
+                onChange={handleFilter}
+                />
               </label>
             </div>
           )
