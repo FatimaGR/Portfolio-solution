@@ -1,15 +1,13 @@
-import { useState } from 'react'
 import Presentation from './components/presentation-card.jsx'
-import Projects from './components/project-card.jsx'
+import Projects from './components/projects.jsx'
 import Knowledge from './components/knowledge-card.jsx'
 import Blog from './components/blog-card.jsx'
 import Experience from './components/experience-card.jsx'
 import Certificate from './components/certificate-card.jsx'
-import Counter from './components/counter.jsx'
+import Projects from './components/projects.jsx'
 import './App.css'
 
 function App() {
-
   return (
     <>
       <Presentation/>
@@ -24,7 +22,6 @@ function App() {
       <br />
       <Certificate/>
       <br />
-      <Counter/>
     </>
   )
 }
