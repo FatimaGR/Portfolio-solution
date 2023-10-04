@@ -56,4 +56,4 @@ function CertificateCardTwo() {
   )
 }
 
-export default CertificateCardOne
+export default CertificateCardTwo

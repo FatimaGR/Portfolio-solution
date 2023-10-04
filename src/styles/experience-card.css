@@ -31,7 +31,8 @@
 }
 /* experience container two styles */
 .experience-container-two{
-  max-width: 410px;
+  /* max-width: 410px; */
+  max-width: 100%;
 }
 .experience-container-two .experience-card{
   width: 90%;

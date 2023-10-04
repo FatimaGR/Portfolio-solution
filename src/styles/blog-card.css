@@ -33,7 +33,8 @@
 }
 /* blog card two styles */
 .blog-card-two{
-  max-width: 500px;
+  /* max-width: 500px; */
+  max-width: 100%;
   position: relative;
   flex-direction: column;
   gap: 25px;

@@ -10,7 +10,7 @@
 }
 /* card one */
 .presentation-card-one{
-  max-width: 85%;
+  max-width: 100%;
   display: flex;
   gap: 30px;
   background-color: #ffffff;

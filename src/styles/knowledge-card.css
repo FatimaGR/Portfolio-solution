@@ -34,7 +34,8 @@
 }
 /* knoledge card two styles */
 .knoledge-card-two{
-  max-width: 389px;
+  /* max-width: 389px; */
+  max-width: 100%;
   background-color: #ffffff;
   border-radius: 12px;
   padding: 22px;

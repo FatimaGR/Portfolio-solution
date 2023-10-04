@@ -66,4 +66,4 @@ function ExperienceCardTwo() {
   )
 }
 
-export default ExperienceCardOne
+export default ExperienceCardTwo

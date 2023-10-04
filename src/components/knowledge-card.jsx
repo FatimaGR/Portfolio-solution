@@ -47,4 +47,4 @@ function KnowledgeTwo() {
   )
 }
 
-export default KnowledgeOne
+export default KnowledgeTwo

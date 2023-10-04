@@ -36,4 +36,4 @@ function BlogCardTwo() {
   )
 }
 
-export default BlogCardOne
+export default BlogCardTwo
