@@ -19,8 +19,9 @@
   box-sizing: border-box;
 }
 .presentation-card-one img{
-  max-width: 271px;
-  max-height: 266px;
+  /* max-width: 271px;*/
+  max-height: 266px; 
+  max-width: 40%;
 }
 .presentation-card-one .general-info{
   display: flex;
@@ -48,4 +49,17 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+@media (max-width: 900px){
+  .presentation-card-one{
+    flex-direction: column;
+    max-width: 400px;
+  }
+  .presentation-card-one img{
+    max-width: 100%;
+  }
+  .presentation-card-one .general-info{
+    flex-flow: row wrap;
+  }
 }

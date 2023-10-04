@@ -22,3 +22,22 @@
 .column-two{
   max-width: 60%;
 }
+
+@media (max-width: 900px){
+  .column-one,
+  .column-two{ 
+    max-width: 80%;
+  }
+  .portfolio-content{
+    max-width: 95%;
+  }
+}
+@media (max-width: 600px){
+  .two-columns{
+    flex-direction: column;
+  }
+  .column-one,
+  .column-two{ 
+    max-width: 100%;
+  }
+}

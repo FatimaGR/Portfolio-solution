@@ -1,5 +1,6 @@
 import codeable from '../assets/codeable.png'
 import cet from '../assets/cet.png'
+import devchallenges from '../assets/devchallengesc.png'
 import '../styles/certificate-card.css'
 
 const certificates = [
@@ -13,6 +14,11 @@ const certificates = [
     title: 'Protagonistas del Futuro',
     description: 'A program where participants developed a mobile application with social impact, created by Chicas en Tecnologia with the support of Disney.',
     image : cet,
+  },{
+    id: 2,
+    title: 'Responsive Web Developer',
+    description: 'Certificate for completing Responsive Web Developer path on devChallenges.io',
+    image : devchallenges,
   }
 ]
 

@@ -44,3 +44,8 @@
   flex-direction: column;
   gap: 35px;
 }
+@media (max-width: 600px){
+  .experience-container-two .experience-card{
+    flex-direction: column;
+  }
+}

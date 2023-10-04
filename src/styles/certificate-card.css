@@ -30,6 +30,7 @@
 /* certificate container two styles */
 .certificate-container-two{
   width: 427px;
+  max-width: 100%;
 }
 .certificate-container-two .certificate-content{
   display: flex;
