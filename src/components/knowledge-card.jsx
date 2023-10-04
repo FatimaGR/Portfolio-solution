@@ -1,12 +1,11 @@
 import '../styles/knowledge-card.css'
 
 const items = [
-  { name: 'react', width: '50%' },
-  { name: 'vue', width: '20%' },
   { name: 'javascript', width: '60%' },
-  { name: 'redux', width: '10%' },
-  { name: 'CSS', width: '80%' },
-  { name: 'react native', width: '20%' }
+  { name: 'react', width: '50%' },
+  { name: 'HTML', width: '70%' },
+  { name: 'CSS', width: '70%' },
+  { name: 'vue', width: '20%' },
 ]
 
 function KnowledgeOne() {

@@ -1,5 +1,5 @@
 import '../styles/blog-card.css'
-import blog from '../assets/blog.jpeg'
+import profile from '../assets/profile.jpeg'
 
 function BlogCardOne() {
   return(
@@ -12,7 +12,7 @@ function BlogCardOne() {
         <br />
         <a href="/">dev.to</a>
       </div>
-      <img src={blog} alt="blog" />
+      <img src={profile} alt="blog" />
     </div>
   )
 }
@@ -26,7 +26,7 @@ function BlogCardTwo() {
           <br />
           <h2 className='title-2 blog-title'>How to organize your CSS</h2>
         </div>
-        <img src={blog} alt="blog" />
+        <img src={profile} alt="blog" />
       </div>
         <p className='paragraph-2'>In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.</p>  
         <p className='paragraph-2'>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>

@@ -1,25 +1,13 @@
-import adidas from '../assets/adidas.jpeg'
+import ctc from '../assets/ctc.jpeg'
 import '../styles/experience-card.css'
 
 const experiences = [
   {
     id: 0,
-    date: 'Feb 2017 - Current',
-    title: 'Front-end developer',
-    description: 'Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.',
-    image : adidas,
-  },{
-    id: 1,
-    date: 'Aug 2016 - Feb 2018',
-    title: 'Full-stack developer',
-    description: 'Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.',
-    image : adidas,
-  },{
-    id: 2,
-    date: 'June 2015 - Aug 2016',
-    title: 'Full-stack developer',
-    description: 'Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.',
-    image : adidas,
+    date: 'Sept - Current',
+    title: 'Programming teacher',
+    description: 'Teaching programming to teenagers, utilizing dynamic platforms like NClab to practice logic, and languages like Python that are suitable for their level of knowledge.',
+    image : ctc,
   }
 ]
 

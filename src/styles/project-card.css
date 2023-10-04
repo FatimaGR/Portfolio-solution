@@ -40,4 +40,6 @@
 }
 .project-card-two img{
   border-radius: 12px;
+  height: 290px;
+  object-fit: cover;
 }
